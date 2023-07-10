@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontello.css">
+  <title>Login</title>
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=NPNoLFEAXXj_I87vMCu51huycSeRIcpQDvsNvLvQVdDjli9cBIU_i4c-1-UcjCKOei68mCLNOl6e1a4Qz_fcLa2SN8WIR-moWBTcE46UXdcBCyYb2zxpntDk2C8DduY71l-HQH59rBDZMYudHb-6DGC14Iy3lEAvohbncTymcPIbEUte0mKNmeOtf2o0u_WaOm-KyGVUPMfce4POI88aJeU2vTPRHITHq0xa7OLmWr9MrnNuwB8UkRm_jc_CSzTXOBtMHQtm_UDUp0Ur_rom-HSiSLjaH46mHZpUHgw0JAybz93a41FFkliTLqhIsyO8GwKBbEskLvaiOBeLF9xF8f0GMisodkn8X6FWkfRZ1uZYncVDGvrnDuumGl4UvButsWwYT-7zLNTtOiJ0AzZEKif9WwI3Kxq2BIjcodEZd6LOGNMvCFm0xTxhWxQZ4UEEVPKBNrBbOQurxN813reC9M2hshT0A_IgAiIwfyUAfCF_p1x9Ru-qgWA2eoFgZ74m5tzhVUcYWuZRk7h_NTR6Zki1SaBdHR8ZU1hfgvjTRHAMtZFau4jSEHuVeDyCD-ggDXw4H9OO1vvBqmjSTtHOeadNEwFS7XhM6EZ9A5igGLTsbgY5ZfcW0EKXClmts-KpAGYfNgJfiXxIu7a1j77I8wsaqqFScBdqtByi610oS2SX1_EvO5p6EBOdmhsjv3j4gWDiSn_bfKxw01SjUgncUKt90Y9DVSgftwnelkaJNS_D0RZsYljro2fYcvhyFWwKWLH2Ix5QqG6FG0C6OsBSc_uV8VQ9mKC-44IFA4GpqU9rvIzT1FazwZrtFIbJgfQ3nDnkN4E6KE0r1LsP9ayt_jMIRqbb6_rYmqSDWJuPCor8FpgKekTXWVxwIkxkyrNSXxM7SGfeCez9gCfkz5S78bT-iKpGWJlGYhyQ6dxuH3pKiXtvWEKg8azit1SR_tUCYFzYxi-OuhJNZ9QP1p6qetkvhPc_ZI9Ii4eB2UcFHzwPpNZZn2zGTPWijkIIHd7mi0HdR6VyPG4_tlweKD7Lp7G6BejrH_GJNwj3mph0c5fTggfLdZKJ0CJMQ_G80m9k34e7edgRQgftVOjT0DVcP37fM39LeIzkJHwIrx3ksKmmuGt9dw6-XmJljKozQFVGsfVWb5Km2thIbNj_ZvhYgLrgSOHNdfc4uUjYhv_K5G7-GKwCl2RJP4zurkBVSCVKNilKBN1zMXoNuBUlLuuzLFWLvr4kf2x59-15aBAm-jP53m4kIu0X9AN3lwHLnbKmWBL3CpRqlS3HGRlQqTaBd5AXUA36BfiXEcxRxw9AU9zxC-ozEHNgi9a4ChPnk2GXDq9fY3jTblvb1NJExsWZt3-Z_aPmjNlnvMF8MePLr2ZIyYXMkKF7dF_ljWK7ek4QYjCQk0p5ic3QBry20CcRpwZ7sWQMJ8P4p-BnpDr97Xnerq5oyZwGb7i_d5_5TwMPkBw0pwcSFQI9c-vuhA_0i9FZ18_G-BtSEZBAV1KME7a66G4C9TwfB5RWL6ebGZ9GvE_jYBUMiceooYc96HOuxdGQm_ktk9CFYE0LsG5dtHlsf7MUj8i-xzS_Xj8fnHFlFCQcSSc3rPep2TWQqTSncw" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2MtMDgtMXMtZG9jcy5nb29nbGV1c2VyY29udGVudC5jb20vZG9jcy9zZWN1cmVzYy80NTNub2RybGE5aTQ1YjhvcmVmZnUxaDY0MzA0MDQyZC9rOXFyczhwbWlkczFiMmZzcmU0NzQzazZnZ2c5MzI5cy8xNjg4NjU1NjAwMDAwLzEyOTQ1MjAxNTczNTE5NDgyMzIzLzE1OTE4NTkwMjE0Mjc5NjUyOTIzLzFScURKR3NLd2loSmYybkxGdEU4ZTNLTnppR21YSFVvZT9lPWRvd25sb2FkJmF4PUFHdEZNUFZpUXNYcGVhNU1rWXhPTDV1bHctN1BiZTRHdFllVnpZTEtoN29mSHNZd0Q3aER6akFKOUNBMjVRbkRWeEFZQ0w0eENVaG9SMzRQM3ZiaTVXaktUSkk4bi1LSjVaVUp1ZjdrRzd0dGNCcWd3dEJNSnduMk95NDBndURSWHVIWXdUOUZpb0VNXzNEdmZqTzBlZ1ZJQzVmZkNncDR2dlhkSnI3VDBXSXNJTlFudFVGeWdDWVdnQ3BWMXBvTkpIMkFPMEF4Y0VWa2pZbnZtdWZyano0MTFwNXNWNFlvNTRuNWJlUmlaSmJhVk9mMlkxRjFSVVpqM2xjNUxBN096LXBhLUw2Zm82aE9lVThYU3ZmYl9fWGhUX1VHOUZUa2ZlM01fcXNkMm1SWE1LZWw2V093WmRvVTFCM2YyRHJYdW5DdVRjU0kyZFNxTGkwTFZCR1RXNk0yZDhmQTcyNmZvYURWeXFPZjlpQzNtMkRNbFBMMkxyNW9aUlVMLVFlLVM1MlVLQUNvQVY1QXZhcVc4bURMbGhnaW5HaERRcGUyU2RvWHRqSTJlcUY5ZWxqTFltY2U4aDNSNXNCaDVPTGFla0xMS0Joel8yRE80bU9lN3owUDU5bGtOWTc2NFNFMXRDcWMxTEpHV1I2dUF0X3pmTGJZY01UbV9IY1ZOdXdyVHpJektZaVEwa21TTkY4ZUFIZHFIaVBjLWN5bjU4OVp0Q29XYS1jYlFaY0lJS1dZcVZJOTVNaTY2QXg0WnJjVVBFTkF5ZkNQTmY2TDhKMU5McS04azlzRG5tSTRaQWhvd0pENV90a2UyTDNzVmlzSFl6eTNWRmlseTBJcW5kTGFWdDdCU2p4UVZQR1ktYnMxMGdxdzlyU1RxUVh6Z1dJUWpTVTc4bkZzU0JndUZHYjJvMzE1M0Rzb05selF2OGlOMVliOVpZeG1yUGk1YkdZZDltcFFIZTZDSldqMzRJRmpwVjctNmN0NWtXZTRuVTNNdXotOWpMZGJ5TlBLMllheHF2d1NhS2RkYWJlQTBVOW1TNS1qMGV4ZkdtWTUzVXdENzdHX1c2aHlCd1hUVmpkQU5sZ3lpd1JhbjdtSjhUYWVXSnlvcEdmaVRDcWt4QUF6R2Z3ZXhIcnFIcWYwY1VTS3pTQUZTY2pIc1ZRaWZnSmxpenhGU25iNXQtaDRoMU93WTQwei1BJnV1aWQ9NTFjZWNhODAtZWFhMy00NDI0LTg0NWUtZjNjMDVlMjY1N2RkJmF1dGh1c2VyPTA"/></head>
+
+<body>
+
+
+  <ul class="nav nav-pills sticky-top bg-white nav-fill">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">
+        <span style="font-weight: bold;">Главная</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="top-sellers.html"><span style="font-weight: bold;">Топ продавцов</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="advertisement-post.html">
+        <span style="font-weight: bold;">Разместить объявление</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="register.html">
+        <span style="font-weight: bold;">Регистрация</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="login.html">
+        <span style="font-weight: bold;">Войти</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="profile.html">
+        <span style="font-weight: bold;">Профиль</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+        <span style="font-weight: bold;">Выйти</span>
+      </a>
+    </li>
+  </ul>
+  <div class="container">
+  <div class="row">
+    <div class="col-8" style="margin: 50px;">
+      <div class="display-2">
+        <span class="badge bg-primary">Страница авторизации пользователя</span>
+      </div>
+    </div>
+  </div>
+    <form method="post">
+      <div class="row mb-3">
+        <div class="col">
+          <label class="col-sm-4 col-form-label offset-4">Username</label>
+          <div class="col-sm-4 offset-4 w-25">
+            <input type="text" class="form-control form-control-lg">
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label class="col-sm-4 col-form-label offset-4">Password</label>
+          <div class="col-sm-4 offset-4 w-25">
+            <input type="password" class="form-control form-control-lg">
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3 offset-sm-5">
+        <div class="col">
+          <button type="submit" class="btn btn-success">Принять</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
