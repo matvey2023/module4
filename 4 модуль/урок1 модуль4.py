@@ -15,4 +15,8 @@ def strcounter(s):
 
     for sym, count in syms_counter.items():
         print(sym, " - ", count)
-strcounter('qwerttttty')
+# strcounter('qwerttttty')
+
+def is_palindrome(s):
+    return s == s[::-1]
+print(is_palindrome('gghohgg'))
