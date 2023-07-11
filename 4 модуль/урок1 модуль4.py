@@ -20,3 +20,4 @@ def strcounter(s):
 def is_palindrome(s):
     return s == s[::-1]
 print(is_palindrome('gghohgg'))
+# функция возвращает результат сравнения поданной на вход строки со строкой, обратной ей.
